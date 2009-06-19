@@ -1,6 +1,10 @@
 POE::Component::Client::NSCA
 ============================
 
+0.16	Fri Jun 19 10:23:59 BST 2009
+	- Makefile.PL meta updates
+	- POD Tidying
+
 0.14	Mon Dec 15 12:30:24 GMT 2008
 	- [rt.cpan.org #41656] Blank password not allowed with XOR 'encryption'
 	  patch applied from JT Justman to fix this.

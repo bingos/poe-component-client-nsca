@@ -126,6 +126,13 @@ AUTHOR
 
     See the LICENSE file for details.
 
+LICENSE
+    Copyright (c) Chris Williams, P Kent and Ethan Galstad.
+
+    This module may be used, modified, and distributed under the same terms
+    as Perl itself. Please see the license that came with your Perl
+    distribution for details.
+
 SEE ALSO
     POE
 

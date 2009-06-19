@@ -8,7 +8,7 @@ use Socket;
 use integer;
 use vars qw($VERSION);
 
-$VERSION = '0.14';
+$VERSION = '0.16';
 
 use constant PROGRAM_VERSION => "1.2.0b4-Perl";
 use constant MODIFICATION_DATE => "16-03-2006";
@@ -437,7 +437,8 @@ sub _encrypt_mcrypt {
 }
 
 
-1;
+'Yn anfon i maes an SOS';
+
 __END__
 
 =head1 NAME
@@ -493,7 +494,7 @@ encryption using the L<Mcrypt> module.
 
 =over
 
-=item send_nsca
+=item C<send_nsca>
 
 Takes a number of parameters:
 
@@ -575,7 +576,7 @@ See the LICENSE file for details.
 
 =head1 LICENSE
 
-Copyright L<(c)> Chris Williams, P Kent and Ethan Galstad.
+Copyright E<copy> Chris Williams, P Kent and Ethan Galstad.
 
 This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
 
@@ -588,3 +589,5 @@ L<Net::Nsca>
 L<Mcrypt>
 
 L<http://www.nagios.org/>
+
+=cut
