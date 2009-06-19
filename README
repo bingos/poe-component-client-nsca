@@ -47,7 +47,7 @@ DESCRIPTION
     optionally supports encryption using the Mcrypt module.
 
 CONSTRUCTOR
-    send_nsca
+    "send_nsca"
         Takes a number of parameters:
 
           'host', the hostname or IP address to connect to, mandatory;
@@ -127,7 +127,7 @@ AUTHOR
     See the LICENSE file for details.
 
 LICENSE
-    Copyright (c) Chris Williams, P Kent and Ethan Galstad.
+    Copyright © Chris Williams, P Kent and Ethan Galstad.
 
     This module may be used, modified, and distributed under the same terms
     as Perl itself. Please see the license that came with your Perl

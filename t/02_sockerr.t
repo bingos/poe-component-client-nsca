@@ -21,7 +21,7 @@ sub _start {
 
   my $check = POE::Component::Client::NSCA->send_nsca( 
 	host  => 'zxkchzxkchzkxhckjhkzjhckzcxkhzk',
-	port  => $port,
+	port  => 5556,
 	event => '_response',
 	password => 'cow',
 	encryption => 1,
